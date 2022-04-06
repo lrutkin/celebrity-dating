@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Soulmates</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Find your celebrity soulmate!</h1>
+
+    <p>So that we can help you find your ultimate celebrity soulmate, please fill out the survey below. Results not guaranteed.</p>
+
+    <form id="soulmate">
+      <label for="name">Your name:</label>
+      <input id="name" type="text"><br>
+      <label for="color">Favorite color:</label>
+      <select id="color">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select><br>
+      <label for="season">Favorite season:</label>
+      <select id="season">
+        <option value="summmer">Summer</option>
+        <option value="spring">Spring</option>
+        <option value="fall">Fall</option>
+        <option value="winter">Winter</option>
+      </select><br>
+      <label for="numerology">Favorite number:</label>
+      <input id="numerology" type="text"><br>
+      <label for="zodiac">What's your sign?</label>
+      <select id="zodiac">
+        <option value="1">Aquarius</option>
+        <option value="2">Pisces</option>
+        <option value="3">Aries</option>
+        <option value="4">Taurus</option>
+        <option value="5">Gemini</option>
+        <option value="6">Cancer</option>
+        <option value="7">Leo</option>
+        <option value="8">Virgo</option>
+        <option value="9">Libra</option>
+        <option value="10">Scorpio</option>
+        <option value="11">Sagittarius</option>
+        <option value="12">Capricorn</option>
+      </select>
+
+      <button type="submit" class="btn">Show me my soulmate!</button>
+    </form>
+
+    <div id="result">
+      <p>The universe has spoken, <span id="name"></span>...</p>
+      <h2>Your celebrity soulmate is <span id="celeb"></span>.</h2>
+    </div>
+  </div>
+</body>
+</html>
+
+
+<!-- soulmates: Beyonce, Harry -->
